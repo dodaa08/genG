@@ -6,7 +6,7 @@ dotenv.config(); // Load environment variables from .env file
 
 const app = express();
 const openai = new OpenAI({
-  apiKey: "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", // Use environment variable for API key
+  apiKey: process.env.OPENAI_API_KEY, // Use environment variable for API key
 });
 
 app.use(express.json());
