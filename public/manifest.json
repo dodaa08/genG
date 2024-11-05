@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "genG",
+  "version": "1.0",
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "32": "github.jpg"
+    }
+  },
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ],
+  "permissions": [
+    "scripting",
+    "tabs"
+  ]
+}
